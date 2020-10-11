@@ -1,0 +1,167 @@
+html {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+     }
+
+body  {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100vh;
+	background: url(coffee-back.jpg) no-repeat 50%  50%;
+	background-size: cover;
+	display: table;
+       }
+
+.nav {
+	text-align: center;
+	margin-top: 40px;
+	}
+.nav li.active a
+{
+border: 1px solid white;
+}
+
+li  {
+	list-style: none;
+	display: inline-block;
+	}
+
+a   {
+	text-decoration: none;
+	color: #fff;
+	text-transform: uppercase;
+	font-family: monsterrat;
+	font-weight: lighter;
+	padding: 16px 40px;
+	}
+
+.logo img
+{
+	width: 150px;
+	height: 150px;
+	float: left;
+	border-radius: 100%;
+	margin-top: -45px;
+	margin-left: 50px;
+
+}
+
+.header  {
+	position: absolute;
+	top: 30%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	}
+
+.header h1  {
+	color: #fff;
+	font-family: satisfy;
+	font-style: italic;
+	font-size: 45px;
+	}
+
+.tagline {
+	position: absolute;
+	top: 38%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	}
+
+.tagline p  {
+	color: #fff;
+	font-family: monsterrat;
+	letter-spacing: 16px;
+	font-weight: lighter;
+	text-transform: uppercase;
+	}
+
+.button
+{
+	margin-top: 300px;
+	margin-left: 600px;
+}
+
+.btn
+{
+border: 1.5px solid white;
+padding: 10px 30px;
+color: black;
+text-decoration: none;
+margin-right: 20px;
+font-size: 15px;
+text-transform: uppercase;
+top: 50%;
+left: 50%;
+}
+
+.btn-one
+{
+color: white;
+font-family: "Roboto", sans-serif;
+btn-align: right;
+}
+
+.btn-one:hover
+{
+background-color: brown;
+transition: all 0.5s ease-in;
+}
+
+form{
+	padding-left: 250px;
+	padding-top: 65px;
+}
+input{
+	width:30%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=button], input[type=submit], input[type=reset] {
+	background-color: brown;
+	border: none;
+	color: white;
+	padding: 16px 32px;
+	text-decoration: none;
+	margin: 4px 2px;
+	cursor: pointer;
+  }
+
+ #esp{
+	width: 200px;
+	height: 200px;
+	border-radius: 100%;
+  }
+
+  #cap
+  {
+	width: 200px;
+	height: 200px;
+	border-radius: 100%;
+  }
+
+  .column {
+	float: left;
+	width: 20%;
+	padding: 5px;
+  }
+  
+  .row::after {
+	content: "";
+	clear: both;
+	display: table;
+  }
+
+  #about{
+	text-align: justify;
+	font-style: italic;
+	font-family: cursive;
+    width: 500px;
+    height: 500px;
+	padding-left: 200px;
+	padding-top: 20px;
+  }
